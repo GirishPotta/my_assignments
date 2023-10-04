@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Who are you?"
+read name
+echo "Hi, $name"
+
+echo "How old are you?"
+read age
+echo "So, you are that old? $age? ok!"
+
+today=$(date)
+echo "If you dont know, today is $today"

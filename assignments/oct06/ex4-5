@@ -1,0 +1,11 @@
+#! /bin/bash
+
+rainbow=("violet" "indigo" "blue" "green" "yellow" "orange" "red")
+echo "Colors of the rainbow:"
+echo ${rainbow[*]}
+
+rainbow+=("cyan")
+echo "Adding an eighth color "cyan" to this rainbow..coz why not?"
+sleep 2
+echo "New rainbow:"
+echo ${rainbow[*]}

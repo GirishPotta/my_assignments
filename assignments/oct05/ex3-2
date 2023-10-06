@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Input 1:"
+read a
+echo "Input 2:"
+read b
+echo "Input 3:"
+read c
+echo "Original Input - $a $b $c"
+echo "Reversed Output - $c $b $a"

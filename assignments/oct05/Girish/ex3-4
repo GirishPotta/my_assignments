@@ -1,0 +1,6 @@
+#!/bin/bash
+
+lines=$(wc -l $1 | cut -d ' ' -f 1)
+words=$(wc -w $1 | cut -d ' ' -f 1)
+echo "Number of lines in $1 are $lines"
+echo "Number of words in $1 are $words"
